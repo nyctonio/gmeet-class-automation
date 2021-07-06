@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head style="background-color: #6e7c7c;">
+  <meta charset="utf-8">
+  <title>Gmeet Automation</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous"></script>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand" style="color: #fff;">GMEET AUTOMATION</p>
+      </div>
+        <ul class="nav navbar-nav navbar-right">
+          <!-- 6 -->
+          <li id="home" ><a href="/" style="color: #fff;">HOME</a></li>
+          <li id="contact" ><a href="mailto:ritesh3662.be20@chitkara.edu.in" style="color: #fff;">CONTACT ME</a></li>
+        </ul>
+    </div>
+  </nav>
+
+<body>
+<div class="container">
+
+    <br>
+    <form action="/success" method="POST" >
+        <div class="form-group">
+            <label class="small" for="title">Email id</label>
+            <input class="form-control" type="text" name="username" required>
+            <label class="small" for="post">Password</label>
+            <input class="form-control" type="password" name="password" required>
+            <label class="small" for="title">Date</label>
+            <input class="form-control" type="date" name="date" required>
+            <label class="small" for="post">Time</label>
+            <input class="form-control" type="time" name="time" required>
+            <label class="small" for="post">Link should be like : ouc-hpvg-tvq </label>
+            <input class="form-control" type="text" name="link" required>
+            <label class="small" for="post">Duration Of Class</label>
+            <input class="form-control" type="time" name="duration" required>
+            <label class="small" for="post">Attendance Message</label>
+            <input class="form-control" type="text" name="message" required>
+        </div>
+        <button class="btn btn-primary" type="submit"> Add </button>
+    </form>
+
+        
+</div>
+<div class="footer-padding" style="position: absolute;bottom: 0px;"></div>
+  <div class="footer">
+    <p>Designed and Developed with 🖤 by Ritesh Kumar</p>
+  </div>
+</div>
+</body>
+</html>
